@@ -1,0 +1,196 @@
+---
+layout: default
+---
+<!--====== BANNER PART START ======-->
+
+<section class="banner-area-2 d-flex align-items-center bg_cover"
+	style="background-image: url(/assets/images/banner-2.1.jpg);">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="banner-flex d-flex justify-content-between align-items-center">
+					<div class="banner-content">
+						<h1 class="title">Ricochet - You are The network</h1>
+						<p>We Value Your Privacy opt-in with Customize.</p>
+						<ul style="display: flex; justify-content: center;">
+							<li><a class="main-btn" href="#">Buy Now</a></li>
+							<li></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====== BANNER PART ENDS ======-->
+
+<section class="team-2-area" style="background-image:url(assets/images/backmicarft.png);">
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-5">
+				<div class="section-title mt-45">
+					<h2 class="title"> <span>welcome to <br><span>Ricochet</span></span></h2>
+					<p class="text">Ricochet is a global peer-to-peer communication framework that is built around long range mesh wireless networking technologies. The company is introducing a new product called PiNG, a pocket-sized mobile communication device with a touch screen display, dual LoRa long range wireless, GPS, and an extended life rechargeable LiPo battery.</p>
+				</div>
+			</div>
+			<div class="col-lg-7">
+				<div class="row justify-content-center">
+
+					<div class="col-lg-6 col-md-6 col-sm-8">
+						<div class="team-item mt-60">
+							<div class="team-thumb">
+								<img src="/assets/images/team-2.2.png" alt="postteam" style="min-width: 400px;">
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!--====== FEATURES 2 PART START ======-->
+
+
+<!--====== FEATURES 2 PART ENDS ======-->
+
+
+<!--====== SERVICES PART START ======-->
+
+
+
+<!--====== SERVICES PART ENDS ======-->
+
+<!--====== TEAM 2 PART START ======-->
+
+
+
+
+<!--====== TEAM 2 PART ENDS ======-->
+
+<!--====== COUNTER PART START ======-->
+
+
+
+<!--====== COUNTER PART ENDS ======-->
+
+<!--====== PROJECT 2 PART START ======-->
+
+<section class="project-2-area">
+
+		<div class="row no-gutters justify-content-center">
+			<div class="col-lg-4 col-md-7 col-sm-9">
+				<div class="project-item active mt-30 wow fadeInUp animated" data-wow-duration="1200ms"
+					data-wow-delay="300ms">
+					<img src="/assets/images/services-2.jpg" alt="post">
+					<div class="project-content text-center">
+						<h3 class="title" style="color: #d9d9;">FAQ</h3>
+						<p>Have questions about Ricochet and PiNG? Check out our FAQ section for answers to common questions about our company and products. From technical specifications to how to get started with Ricochet, we've got you covered.</p>
+						<a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-7 col-sm-9">
+				<div class="project-item mt-30 wow fadeInUp animated" data-wow-duration="1200ms" data-wow-delay="600ms">
+					<img src="/assets/images/services-3.jpg" alt="post">
+					<div class="project-content text-center">
+						<h3 class="title" style="color: #d9d9;">Docs</h3>
+						<p>Need more detailed information about Ricochet and PiNG? Our Docs section is the place to go. Here you can find comprehensive documentation on everything from setting up your PiNG device to advanced features and troubleshooting./p>
+						<a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<!--====== PROJECT 2 PART ENDS ======-->
+
+<!--====== TESTIMONIALS 2 PART START ======-->
+
+<section class="testimonials-2-area" style="background-color: yellowgreen;">
+	<div class="container" style="display: flex; justify-content: center;">
+		<div class="row">
+				<div class="section-title" style="display: flex;flex-direction: column;align-items: center;">
+					<h2 class="title"><span>Forum <span></span></span></h2>
+					<p style="font-size: 28px;" >Want to connect with other Ricochet users and share tips and experiences? Our Forum is the perfect place to do so. Join the conversation and get to know the vibrant Ricochet community.
+					</p>
+					<a class="main-btn" href="faq.html"> Join In The community</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!--====== TESTIMONIALS 2 PART ENDS ======-->
+
+<!--====== FAQ PART START ======-->
+
+
+<!--====== FAQ PART ENDS ======-->
+
+<!--====== BLOG 2 PART START ======-->
+
+<section class="blog-area-2 pb-130">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				<div class="section-title text-center">
+					<h2 class="title" style="font-size: 48px;">Shop</h2>
+					<p>Looking to join the Ricochet network and enjoy the benefits of secure, private communication? Look no further than our online shop. Here you can purchase our innovative PiNG device and start enjoying the freedom of uncensored, anonymous communication.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			{% for post in site.posts limit: "1" %}
+				<div class="blog-item mt-30 wow fadeIn animated" data-wow-duration="1500ms" data-wow-delay="0ms">
+					<img class="height-360" src="{{post.post_image}}" alt="{{post.title}}" style="min-width: 800px;" />
+					<div class="blog-overlay">
+						<div class="blog-tag">
+						</div>
+
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+<section class="team-2-area" style="background-color: rgb(46 186 217);"> 
+	<div class="container">
+		<div class="row ">
+			<div class="col-lg-5">
+				<div class="section-title mt-45">
+					<h2 class="title"> <span>BUY NOW<br><span></span></span></h2>
+					<p style="color: #ffff; font-size: 28px;">Ricochet is a global peer-to-peer communication framework that is built around long range mesh wireless networking technologies. The company is introducing a new product called PiNG, a pocket-sized mobile communication device with a touch screen display, dual LoRa long range wireless, GPS, and an extended life rechargeable LiPo battery.</p>
+					<a class="main-btn" href="team.html">Buy Now</a>
+				</div>
+			</div>
+			<div class="col-lg-7">
+				<div class="row justify-content-center">
+
+					<div class="col-lg-6 col-md-6 col-sm-8">
+						<div class="team-item mt-60">
+							<div class="team-thumb">
+								<img src="/assets/images/banner-1.jpg" alt="postteam" style="min-width: 500px; border-radius: 0px;">
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--====== BLOG 2 PART ENDS ======-->
